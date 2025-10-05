@@ -1,0 +1,73 @@
+# -----------------------------
+# Python-related ignores
+# -----------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+.env
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# pyenv / pipenv / poetry / etc.
+.python-version
+Pipfile.lock
+poetry.lock
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Project specific ignores
+# -----------------------------
+
+# Local environment variables
+.env
+.env.*
+
+# Data directories
+data/
+datasets/
+output/
+logs/
+tmp/
+*.log
+
+# -----------------------------
+# Misc
+# -----------------------------
+# Backup or temporary files
+*.bak
+*.tmp
+*.swp
